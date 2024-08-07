@@ -1,0 +1,60 @@
+body {
+  background-color: rgb(128, 172, 189);
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#editor {
+  resize: vertical;
+  padding: 0;
+  border: none;
+  background-color: rgb(187, 212, 235);
+}
+
+#editor, #preview {
+  width: 700px;
+  padding: 10px;
+}
+
+#editorWrap, #previewWrap {
+  margin: 10px;
+  border: 2px solid black;
+  border-radius: 7px;
+  background-color: rgb(187, 212, 235);
+}
+
+.title {
+  margin: 0;
+  border-radius: 5px 5px 0 0;
+  background-color: rgb(92, 217, 221);
+  padding: 7px 20px;
+}
+
+code, pre {
+  background-color: white;
+}
+
+blockquote > p {
+  border-left: 5px solid black;
+  padding-left: 10px;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 2px solid black;
+  margin: 0;
+  padding: 1px 5px;
+}
+
+img {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 30px;
+}
